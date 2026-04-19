@@ -1,0 +1,31 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# Nexus OS — CODEOWNERS
+# Defines mandatory reviewers for each area of the codebase.
+# See CONTRIBUTING.md for full role descriptions.
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ─── Backend (Spring Boot, Temporal) ──────────────────────────────────────────
+/backend/                                   @lead-architect
+/backend/**/temporal/                       @lead-architect
+
+# ─── AI / Agents (LangChain4j, Qdrant) ───────────────────────────────────────
+/backend/**/agents/                         @ai-specialist
+
+# ─── Frontend (Next.js, React Flow) ──────────────────────────────────────────
+/frontend/                                  @ui-lead
+
+# ─── Infrastructure (Docker, Kafka, CI/CD) ───────────────────────────────────
+/docker-compose.yml                         @devops-lead
+/.github/workflows/                         @devops-lead
+Dockerfile*                                 @devops-lead
+/backend/**/config/KafkaConfig.java         @devops-lead
+
+# ─── Self-Mutating Logic ─────────────────────────────────────────────────────
+/scripts/                                   @systems-hacker
+
+# ─── External Integrations ───────────────────────────────────────────────────
+/backend/**/integrations/                   @integration-lead
+
+# ─── Governance Files ────────────────────────────────────────────────────────
+CONTRIBUTING.md                             @lead-architect @devops-lead
+README.md                                   @lead-architect

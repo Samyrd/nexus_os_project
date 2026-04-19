@@ -1,0 +1,113 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# Nexus OS — Root .gitignore
+# Covers: Java/Maven, Next.js/Node, Python (LLM scripts), Docker, IDEs
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ─── Java / Maven ─────────────────────────────────────────────────────────────
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.log
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven wrapper downloaded files
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/MavenWrapperDownloader.java
+
+# ─── Next.js / Node.js ───────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ─── Python (Local LLM Scripts) ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+ENV/
+env/
+.conda/
+*.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+docker-compose.override.yml
+.docker/
+
+# ─── Environment & Secrets ───────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# ─── IDE / Editor ────────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+.factorypath
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ─── OS Generated ────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+*.bak
+*.tmp
+*.temp
+*.orig
+*.pid
+*.seed
+*.pid.lock
+coverage/
+.nyc_output/
