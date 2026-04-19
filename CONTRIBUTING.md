@@ -242,7 +242,7 @@ feat: things                 # No scope, vague description
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-org/nexus-os.git
+git clone https://github.com/Samyrd/nexus_os_project.git
 cd nexus-os
 
 # 2. Start infrastructure

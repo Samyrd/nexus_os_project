@@ -191,7 +191,7 @@ graph TB
 ### 1. Clone & Bootstrap
 
 ```bash
-git clone https://github.com/your-org/nexus-os.git
+git clone https://github.com/Samyrd/nexus_os_project.git
 cd nexus-os
 ```
 
